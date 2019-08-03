@@ -1,0 +1,6 @@
+__pycache__
+pdf/*
+tex/*
+rules/*
+!rules/rules.tex
+*/*.xcf

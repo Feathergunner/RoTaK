@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<data>
+	<card 
+		id="NW_1"
+		name="Sonnenschein"
+		faction_id="NW"
+		level="0"
+		strength="0"
+		actions="0"
+		costs="0"
+		cardclass="Wetter"
+		image="card_img_N_Sun.jpg">
+		<row name="WEATHER"></row>
+		<rule id="w001"></rule>
+	</card>
+	<card 
+		id="NW_2"
+		name="Frost"
+		faction_id="NW"
+		level="0"
+		strength="0"
+		actions="0"
+		costs="0"
+		cardclass="Wetter"
+		image="card_img_N_Snow.jpg">
+		<row name="WEATHER"></row>
+		<rule id="w002"></rule>
+	</card>
+	<card 
+		id="NW_3"
+		name="Nebel"
+		faction_id="NW"
+		level="0"
+		strength="0"
+		actions="0"
+		costs="0"
+		cardclass="Wetter"
+		image="card_img_N_Foggy.jpg">
+		<row name="WEATHER"></row>
+		<rule id="w003"></rule>
+	</card>
+	<card 
+		id="NW_4"
+		name="Regen"
+		faction_id="NW"
+		level="0"
+		strength="0"
+		actions="0"
+		costs="0"
+		cardclass="Wetter"
+		image="card_img_N_Rain.jpg">
+		<row name="WEATHER"></row>
+		<rule id="w004"></rule>
+	</card>
+</data>

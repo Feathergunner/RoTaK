@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<data>
+	<card
+		id="HK1"
+		name="Soldat"
+		faction_id="HK"
+		level="1"
+		strength="2"
+		actions="0"
+		costs="7"
+		cardclass="Soldat"
+		image="card_img_H_Soldat.jpg">
+		<row name="CLOSE"></row>
+		<rule id="mp004"></rule>
+	</card>
+	<card
+		id="HK2"
+		name="Elitesoldat"
+		faction_id="HK"
+		level="1"
+		strength="4"
+		actions="0"
+		costs="11"
+		cardclass="Soldat"
+		image="card_img_H_Elitesoldat.jpg">
+		<row name="CLOSE"></row>
+		<rule id="mp004"></rule>
+	</card>
+	<card 
+		id="HK3"
+		name="Held"
+		faction_id="HK"
+		level="3"
+		strength="8"
+		actions="0"
+		costs="17"
+		cardclass="Held"
+		image="card_img_H_Held.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp004"></rule>
+	</card>
+	<card
+		id="HK4"
+		name="Wehrpflichtiger"
+		faction_id="HK"
+		level="1"
+		strength="2"
+		actions="0"
+		costs="4"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule
+			id="mp001"
+			name="Schwache Moral">
+		</rule>
+	</card>
+	<card 
+		id="HK5"
+		name="Schütze"
+		faction_id="HK"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_H_Schuetze.jpg">
+		<row name="RANGED"></row>
+	</card>
+	<card 
+		id="HK6"
+		name="General"
+		faction_id="HK"
+		level="2"
+		strength="3"
+		actions="2"
+		costs="10"
+		cardclass="Anführer"
+		image="card_img_H_General.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="ma018"></rule>
+	</card>
+	<card
+		id="HK7"
+		name="Feldmarschall"
+		faction_id="HK"
+		level="2"
+		strength="3"
+		actions="0"
+		costs="10"
+		cardclass="Anführer"
+		image="card_img_H_General.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp009"></rule>
+	</card>
+
+	<card
+		id="HK8"
+		name="Plänkler"
+		faction_id="HK"
+		level="1"
+		strength="2"
+		actions="2"
+		costs="8"
+		cardclass="Soldat"
+		image="card_img_H_Schuetze.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="ma002"></rule>
+		<rule id="ma010"></rule>
+	</card>
+	<card
+		id="HK9"
+		name="Schmied"
+		faction_id="HK"
+		level="1"
+		strength="0"
+		actions="1"
+		costs="4"
+		cardclass="Zivilist"
+		image="card_img_H_Schmied.jpg">
+		<row name="SUPPORT"></row>
+		<rule
+			id="ap001">
+		</rule>
+		<rule
+			id="gp002">
+		</rule>
+		<rule
+			id="ma005">
+		</rule>
+	</card>
+	<card
+		id="HK10"
+		name="Standarte"
+		faction_id="HK"
+		level="2"
+		strength="2"
+		actions="0"
+		costs="1"
+		cardclass="Soldat"
+		image="card_img_H_Standarte.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="mp002"></rule>
+		<rule id="gp001"></rule>
+		<rule id="gp005"></rule>
+	</card>
+	<card
+		id="HK11"
+		name="Katapult"
+		faction_id="HK"
+		level="1"
+		strength="3"
+		actions="2"
+		costs="10"
+		cardclass="Konstrukt"
+		image="card_img_H_Katapult.jpg">
+		<row name="SUPPORT"></row>
+		<rule
+			id="gp001">
+		</rule>
+		<rule
+			id="ma006">
+		</rule>
+	</card>
+	<card
+		id="HK12"
+		name="Schweres Katapult"
+		faction_id="HK"
+		level="2"
+		strength="4"
+		actions="2"
+		costs="12"
+		cardclass="Konstrukt"
+		image="card_img_H_Katapult.jpg">
+		<row name="SUPPORT"></row>
+		<rule
+			id="gp001">
+		</rule>
+		<rule
+			id="ma006">
+		</rule>
+	</card>
+	<card
+		id="HK13"
+		name="Balliste"
+		faction_id="HK"
+		level="1"
+		strength="3"
+		actions="1"
+		costs="10"
+		cardclass="Konstrukt"
+		image="card_img_H_Balliste.jpg">
+		<row name="SUPPORT"></row>
+		<rule
+			id="gp001">
+		</rule>
+		<rule
+			id="ap001">
+		</rule>
+		<rule
+			id="ma016">
+		</rule>
+	</card>
+	<card 
+		id="HK14"
+		name="Spion"
+		faction_id="HK"
+		level="1"
+		strength="3"
+		actions="2"
+		costs="4"
+		cardclass="Soldat"
+		image="card_img_H_Spion.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="gp003"></rule>
+		<rule id="sa001"></rule>
+		<rule id="sa002"></rule>
+	</card>
+	<card 
+		id="HK15"
+		name="Meisterspion"
+		faction_id="HK"
+		level="2"
+		strength="1"
+		actions="3"
+		costs="8"
+		cardclass="Soldat"
+		image="card_img_H_Meisterspion.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="gp003"></rule>
+		<rule id="sa001"></rule>
+		<rule id="sa002"></rule>
+	</card>
+	<card
+		id="HK16"
+		name="Joker"
+		faction_id="HK"
+		level="3"
+		strength="0"
+		actions="4"
+		costs="9"
+		cardclass="Joker"
+		image="card_img_H_Narr.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="gp002"></rule>
+		<rule id="ma001"></rule>
+	</card>
+</data>
+		

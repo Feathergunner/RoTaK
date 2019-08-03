@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<data>
+	<faction
+		race_name="Menschen"
+		faction_name="Kaiserreich"
+		id="HK"
+		color="blue">
+	</faction>
+	<faction
+		race_name="Menschen"
+		faction_name="Heilige Armee"
+		id="HH"
+		color="blue">
+	</faction>
+	<faction
+		race_name="Zwerge"
+		faction_name="Armee des Zwergenkönigs"
+		id="ZK"
+		color="yellow">
+	</faction>
+	<faction
+		race_name="Zwerge"
+		faction_name="Wilde Zwerge"
+		id="ZW"
+		color="yellow">
+	</faction>
+	<faction
+		race_name="Elfen"
+		faction_name="Hochelfen"
+		id="EH"
+		color="green">
+	</faction>
+	<faction
+		race_name="Elfen"
+		faction_name="Waldelfen"
+		id="EW"
+		color="green">
+	</faction>
+	<faction
+		race_name="Monster"
+		faction_name="Bestien"
+		id="MB"
+		color="red">
+	</faction>
+	<faction
+		race_name="Monster"
+		faction_name="Geister"
+		id="MG"
+		color="red">
+	</faction>
+	<faction
+		race_name="Neutral"
+		faction_name="Wetter"
+		id="NW"
+		color="gray">
+	</faction>
+	<faction
+		race_name="Neutral"
+		faction_name="Ritter"
+		id="NR"
+		color="gray">
+	</faction>
+
+</data>

@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<data>
+	<card 
+		name="Infanterist"
+		faction_id="ZK"
+		level="1"
+		strength="2"
+		actions="0"
+		costs="5"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="mp005"></rule>
+	</card>
+	<card 
+		name="Axtkrieger"
+		faction_id="ZK"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="7"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="mp005"></rule>
+	</card>
+	<card 
+		name="Armbrustschütze"
+		faction_id="ZK"
+		level="1"
+		strength="4"
+		actions="1"
+		costs="10"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="RANGED"></row>
+		<rule id="ma002"></rule>
+	</card>
+	<card
+		name="Champion"
+		faction_id="ZK"
+		level="3"
+		strength="7"
+		actions="0"
+		costs="16"
+		cardclass="Held"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="mp002"></rule>
+	</card>
+	<card
+		name="König der Zwerge"
+		faction_id="ZK"
+		level="3"
+		strength="8"
+		actions="3"
+		costs="22"
+		cardclass="Held"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="mp002"></rule>
+		<rule id="ma017"></rule>
+	</card>
+	<card 
+		name="Königsgarde"
+		faction_id="ZK"
+		level="2"
+		strength="6"
+		actions="0"
+		costs="15"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp006"></rule>
+		<rule id="mp005"></rule>
+	</card>
+	<card 
+		name="Maschinist"
+		faction_id="ZK"
+		level="1"
+		strength="1"
+		actions="1"
+		costs="8"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="ap001"></rule>
+		<rule id="ma008"></rule>
+		<rule id="ma009"></rule>
+	</card>
+	<card 
+		name="Zwergenschmied"
+		faction_id="ZK"
+		level="1"
+		strength="1"
+		actions="2"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_H_Schmied.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="ma005"></rule>
+	</card>
+	<card 
+		name="Meister der Schmiede"
+		faction_id="ZK"
+		level="2"
+		strength="2"
+		actions="2"
+		costs="12"
+		cardclass="Soldat"
+		image="card_img_H_Schmied.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="ap001"></rule>
+		<rule id="ma005"></rule>
+	</card>
+	<card 
+		name="Steinschleuder"
+		faction_id="ZK"
+		level="1"
+		strength="4"
+		actions="2"
+		costs="12"
+		cardclass="Konstrukt"
+		image="card_img_H_Katapult.jpg">
+		<row name="RANGED"></row>
+		<rule id="gp001"></rule>
+		<rule id="ma006"></rule>
+	</card>
+	<card 
+		name="Schwere Balliste"
+		faction_id="ZK"
+		level="1"
+		strength="4"
+		actions="3"
+		costs="16"
+		cardclass="Konstrukt"
+		image="card_img_H_Balliste.jpg">
+		<row name="RANGED"></row>
+		<rule id="gp001"></rule>
+		<rule id="ma007"></rule>
+	</card>
+	<card 
+		name="Bombe"
+		faction_id="ZK"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="9"
+		cardclass="Konstrukt"
+		image="card_img_bomb.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp001"></rule>
+		<rule id="gp005"></rule>
+		<rule id="gp008"></rule>
+		<rule id="ma012"></rule>
+	</card>
+	<card 
+		name="Feuerwerfer"
+		faction_id="ZK"
+		level="1"
+		strength="3"
+		actions="2"
+		costs="11"
+		cardclass="Konstrukt">
+		<row name="CLOSE"></row>
+		<rule id="gp008"></rule>
+		<rule id="ma002"></rule>
+	</card>
+	<card 
+		name="Braumeister"
+		faction_id="ZK"
+		level="1"
+		strength="1"
+		actions="2"
+		costs="6"
+		cardclass="Soldat">
+		<row name="SUPPORT"></row>
+		<rule id="ma017"></rule>
+	</card>
+	<card 
+		name="Kriegspauke"
+		faction_id="ZK"
+		level="1"
+		strength="1"
+		actions="2"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_Drum.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="ma018"></rule>
+	</card>
+	<card
+		name="Standarte"
+		faction_id="ZK"
+		level="2"
+		strength="3"
+		actions="0"
+		costs="1"
+		cardclass="Soldat"
+		image="card_img_H_Standarte.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="mp002"></rule>
+		<rule id="gp001"></rule>
+		<rule id="gp005"></rule>
+	</card>
+	<card
+		name="General"
+		faction_id="ZK"
+		level="2"
+		strength="4"
+		actions="0"
+		costs="12"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp009"></rule>
+	</card>
+	<card
+		name="Junger Zwergenkrieger"
+		faction_id="ZK"
+		level="1"
+		strength="1"
+		actions="0"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp012"></rule>
+	</card>
+
+</data>

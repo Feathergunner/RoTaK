@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<data>
+	<card 
+		name="Clankrieger"
+		faction_id="ZW"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="9"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp006"></rule>
+	</card>
+	<card 
+		name="Keilerreiter"
+		faction_id="ZW"
+		level="1"
+		strength="4"
+		actions="0"
+		costs="8"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp004"></rule>
+	</card>
+	<card 
+		name="Kundschafter"
+		faction_id="ZW"
+		level="1"
+		strength="2"
+		actions="2"
+		costs="8"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="ma002"></rule>
+		<rule id="ma003"></rule>
+	</card>
+	<card 
+		name="Berserker"
+		faction_id="ZW"
+		level="2"
+		strength="5"
+		actions="0"
+		costs="14"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp004"></rule>
+		<rule id="mp005"></rule>
+		<rule id="gp013"></rule>
+	</card>
+	<card 
+		name="Clanführer"
+		faction_id="ZW"
+		level="2"
+		strength="6"
+		actions="0"
+		costs="18"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp006"></rule>
+	</card>
+	<card 
+		name="Held"
+		faction_id="ZW"
+		level="3"
+		strength="8"
+		actions="0"
+		costs="19"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp013"></rule>
+	</card>
+	<card 
+		name="Monsterschlächter"
+		faction_id="ZW"
+		level="3"
+		strength="7"
+		actions="0"
+		costs="16"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="mp005"></rule>
+	</card>
+	<card 
+		name="Druide: Trankbrauer"
+		faction_id="ZW"
+		level="1"
+		strength="2"
+		actions="1"
+		costs="12"
+		cardclass="Soldat"
+		image="card_img_E_Schamane.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="ap001"></rule>
+		<rule id="ta001"></rule>
+		<rule id="ta002"></rule>
+	</card>
+	<card
+		name="Druide: Geistlicher"
+		faction_id="ZW"
+		level="1"
+		strength="2"
+		actions="1"
+		costs="12"
+		cardclass="Soldat"
+		image="card_img_E_Schamane.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="ap001"></rule>
+		<rule id="ma001"></rule>
+	</card>
+	<card
+		name="Druide: Falkner"
+		faction_id="ZW"
+		level="1"
+		strength="1"
+		actions="1"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_E_Schamane.jpg">
+		<row name="RANGED"></row>
+		<rule id="ca006"></rule>
+	</card>
+	<card 
+		name="Wilder Axtkrieger"
+		faction_id="ZW"
+		level="1"
+		strength="2"
+		actions="0"
+		costs="8"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp006"></rule>
+		<rule id="gp013"></rule>
+	</card>
+	<card 
+		name="Bärenjäger"
+		faction_id="ZW"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_Z_Dwarf.jpg">
+		<row name="RANGED"></row>
+	</card>
+	<card 
+		name="Horn der Ahnen"
+		faction_id="ZW"
+		level="1"
+		strength="2"
+		actions="3"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_Drum.jpg">
+		<row name="SUPPORT"></row>
+		<rule id="gp001"></rule>
+		<rule id="gp005"></rule>
+		<rule id="ap001"></rule>
+		<rule id="ma019"></rule>
+	</card>
+</data>

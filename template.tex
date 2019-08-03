@@ -1,0 +1,34 @@
+\documentclass$$$FORMAT$$${article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry} \geometry{a4paper, top=12mm, left=15mm, right=15mm, bottom=15mm, headsep=10mm, footskip=12mm}
+\usepackage{pdflscape}
+
+\usepackage{tikz}
+\usepackage{graphicx}
+\definecolor{gold}{rgb}{1.0, 0.84, 0.0}
+\definecolor{silver}{rgb}{0.79, 0.75, 0.73}
+\definecolor{bronze}{rgb}{0.8, 0.5, 0.2}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\newcommand{\titleofcard}[1]{\large\textbf{#1}}
+\newcommand{\class}[1]{\textsc{#1}}
+\newcommand{\imgwidth}{\cardwidth-1}
+\newcommand{\desc}[1]{\small #1}
+
+\pagestyle{empty}
+
+\begin{document}
+\begin{center}
+$$$CARDS$$$
+\end{center}
+$$$FORMAT_CHANGE_BEGIN$$$
+\newpage
+\paragraph{Passive Fähigkeiten:}
+$$$RULES_PASSIVE$$$
+\paragraph{Aktive Fähigkeiten:}
+$$$RULES_ACTIVE$$$
+$$$FORMAT_CHANGE_END$$$
+\end{document}

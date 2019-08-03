@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<data>
+	<card 
+		name="Wilder Wolf"
+		faction_id="MB"
+		level="1"
+		strength="1"
+		actions="1"
+		costs="8"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp004"></rule>
+		<rule id="mp004"></rule>
+		<rule id="ap001"></rule>
+		<rule id="ca001"></rule>
+	</card>
+	<card 
+		name="Wilder Bär"
+		faction_id="MB"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="7"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp004"></rule>
+	</card>
+	<card 
+		name="Wilder Keiler"
+		faction_id="MB"
+		level="1"
+		strength="2"
+		actions="2"
+		costs="12"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp004"></rule>
+		<rule id="mp004"></rule>
+		<rule id="ap001"></rule>
+		<rule id="ca005"></rule>
+	</card>
+	<card 
+        name="Drachling"
+		faction_id="MB"
+        level="1"
+        strength="4"
+        actions="1"
+        costs="10"
+        cardclass="Soldat"
+        image="card_img_M_Dragon.jpg">
+        <row name="RANGED"></row>
+        <rule id="ma016"></rule>
+        <rule id="gp008"></rule>
+    </card>
+    <card 
+        name="Bergwolf"
+        faction_id="MB"
+        level="1"
+        strength="2"
+        actions="0"
+        costs="5"
+        cardclass="Soldat">
+        <row name="CLOSE"></row>
+        <rule id="gp004"></rule>
+    </card>
+	<card 
+		name="Greif"
+		faction_id="MB"
+		level="2"
+		strength="6"
+		actions="0"
+		costs="13"
+		cardclass="Soldat">
+		<row name="RANGED"></row>
+		<rule id="gp004"></rule>
+		<rule id="gp010"></rule>
+	</card>
+	<card 
+		name="Harpyie"
+		faction_id="MB"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="6"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+        <rule id="gp008"></rule>
+	</card>
+	<card 
+		name="Golem"
+		faction_id="MB"
+		level="1"
+		strength="4"
+		actions="0"
+		costs="8"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp001"></rule>
+	</card>
+	<card 
+		name="Feuergolem"
+		faction_id="MB"
+		level="2"
+		strength="5"
+		actions="1"
+		costs="12"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp001"></rule>
+		<rule id="mp003"></rule>
+		<rule id="ma002"></rule>
+	</card>
+	<card 
+		name="Zyklop"
+		faction_id="MB"
+		level="2"
+		strength="5"
+		actions="2"
+		costs="13"
+		cardclass="Soldat"
+		image="card_img_M_Zyklop.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp004"></rule>
+		<rule id="gp010"></rule>
+		<rule id="ma014"></rule>
+	</card>
+	<card 
+		name="Feuerdrache"
+		faction_id="MB"
+		level="3"
+		strength="10"
+		actions="1"
+		costs="26"
+		cardclass="Held">
+		<row name="RANGED"></row>
+		<rule id="ap001"></rule>
+		<rule id="mp003"></rule>
+		<rule id="ma016"></rule>
+	</card>
+	<card 
+		name="Drache"
+		faction_id="MB"
+		level="3"
+		strength="8"
+		actions="1"
+		costs="22"
+		cardclass="Held">
+		<row name="RANGED"></row>
+		<rule id="ap001"></rule>
+		<rule id="ma016"></rule>
+		<rule id="ga002"></rule>
+	</card>
+	<card 
+		name="Monsternest"
+		faction_id="MB"
+		level="3"
+		strength="3"
+		actions="2"
+		costs="11"
+		cardclass="Konstrukt">
+		<row name="SUPPORT"></row>
+		<rule id="gp001"></rule>
+		<rule id="gp005"></rule>
+		<rule id="ap001"></rule>
+		<rule id="ga001"></rule>
+	</card>
+	<card
+		name="Troll"
+		faction_id="MB"
+		level="1"
+		strength="4"
+		actions="0"
+		costs="12"
+		cardclass="Soldat"
+		image="card_img_M_Troll.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp006"></rule>
+	</card>
+	<card
+		name="Riese"
+		faction_id="MB"
+		level="2"
+		strength="6"
+		actions="0"
+		costs="18"
+		cardclass="Soldat"
+		image="card_img_M_Riese.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp006"></rule>
+		<rule id="gp010"></rule>
+	</card>
+	<card
+		name="Uralter Riese"
+		faction_id="MB"
+		level="3"
+		strength="7"
+		actions="0"
+		costs="22"
+		cardclass="Held"
+		image="card_img_M_UralterRiese.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp006"></rule>
+		<rule id="gp010"></rule>
+	</card>
+	<card 
+		name="Wilder Adler"
+		faction_id="MB"
+		level="1"
+		strength="2"
+		actions="1"
+		costs="6"
+		cardclass="Soldat"
+		image="card_img_M_Adler.jpg">
+		<row name="RANGED"></row>
+		<row name="SUPPORT"></row>
+		<rule id="gp004"></rule>
+		<rule id="ma016"></rule>
+	</card>
+	<card 
+		name="Riesenspinne"
+		faction_id="MB"
+		level="1"
+		strength="2"
+		actions="1"
+		costs="4"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp010"></rule>
+        <rule id="gp008"></rule>
+		<rule id="ga002"></rule>
+	</card>
+
+</data>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!--
+        
+% PX = posx
+% PXI = posx+cornerrad
+% PXDX = posx+dx
+% PXDXI = posx+dx-cornerrad
+
+% PXII = posx+inner_corner_rad
+% PXDXII = posx+dx-inner_corner_rad
+% RADI = inner_corner_rad
+
+% TW = dx-1
+% PXTX = posx+titleposx
+
+% PXDXDELTA = posx+dx-0.7
+
+% IMGBDX = img_dx_base-0.4
+% IMGPX = img_pos_x
+
+% IMGDX = img_dx_base-0.5
+
+% SX = posx+(dx-corner_rad)+0.3
+% SSY = img_pos_y+1.1
+% SAY = img_pos_y
+% SCY = img_pos_y-1.1
+
+% RULEX = posx+corner_rad*0.8
+% RULEY = posy+titleposy-img_dy_base-2+corner_rad*0.8
+
+% ROWX = posx+rows_symbol_offset
+% ROWY = posy+titleposy-img_dy_base-1
+
+% NAME
+% KEY
+% COLOR
+% COLOR_BG
+% COLOR_BORDER
+% IMG
+% STRENGTH
+% ACTIONS
+% COSTS
+% ROWS
+% RULES
+% LEVEL
+
+-->
+<data>
+    <tikzline
+        name="draw_bg_border"
+        command="\draw[fill=$$$COLOR_BG$$$] ($$$PX$$$,$$$PYI$$$) arc[radius=$$$CORNERRAD$$$cm, start angle=180, end angle=270] -- ($$$PXDXI$$$,$$$PY$$$) arc[radius=$$$CORNERRAD$$$cm, start angle=270, end angle=360] -- ($$$PXDX$$$,$$$PYDYI$$$) arc[radius=$$$CORNERRAD$$$cm, start angle=0, end angle=90] -- ($$$PXI$$$,$$$PYDY$$$) arc[radius=$$$CORNERRAD$$$cm, start angle=90, end angle=180] -- ($$$PX$$$,$$$PYI$$$);">
+    </tikzline>
+    <tikzline
+        name="draw_bg"
+        command="\draw[color=$$$COLOR_BORDER$$$, fill=$$$COLOR_BORDER$$$] ($$$PXII$$$,$$$PYI$$$) arc[radius=$$$RADI$$$cm, start angle=180, end angle=270] -- ($$$PXDXI$$$,$$$PYII$$$) arc[radius=$$$RADI$$$cm, start angle=270, end angle=360] -- ($$$PXDXII$$$,$$$PYDYI$$$) arc[radius=$$$RADI$$$cm, start angle=0, end angle=90] -- ($$$PXI$$$,$$$PYDYII$$$) arc[radius=$$$RADI$$$cm, start angle=90, end angle=180] -- ($$$PXII$$$,$$$PYI$$$);">
+    </tikzline>
+    <tikzline
+        name="card_title"
+        command="\node[text width=$$$TW$$$cm, anchor=north west] (title) at ($$$PXTX$$$,$$$PYTY$$$) {\titleofcard{$$$NAME$$$}};">
+    </tikzline>
+    <tikzline
+        name="card_rpkey"
+        command="\node (race) [draw, circle, fill=$$$COLOR$$$!40, minimum width=1cm, minimum height=1cm,] at ($$$PXDXDELTA$$$,$$$PYDYDELTA$$$) {$$$KEY$$$};">
+    </tikzline>
+    <tikzline
+        name="img_border"
+        command="\node [draw, ultra thick, rectangle, color=$$$IMGBORDERCOLOR$$$, minimum width=$$$IMGBDX$$$cm, minimum height=$$$IMGBDY$$$cm] at ($$$IMGBPX$$$,$$$IMGBPY$$$){};">
+    </tikzline>
+    <tikzline
+        name="img_image"
+        command="\node [minimum width=$$$IMGDX$$$cm, minimum height=$$$IMGDY$$$cm, path picture={\node [anchor=center]{\includegraphics[width=$$$IMGDX$$$cm] {$$$IMG$$$}};}] (image) at ($$$IMGPX$$$,$$$IMGPY$$$){};">
+    </tikzline>
+    <tikzline
+        name="card_stat_strength"
+        command="\node (race) [draw, circle, fill=white, anchor=east, minimum width=1cm, minimum height=1cm,] at ($$$SX$$$,$$$SSY$$$) {\large $$$STRENGTH$$$};">
+    </tikzline>
+    <tikzline
+        name="card_stat_actions"
+        command="\node (race) [draw, circle, fill=white, anchor=east, minimum width=1cm, minimum height=1cm,] at ($$$SX$$$,$$$SAY$$$) {\large $$$ACTIONS$$$};">
+    </tikzline>
+    <tikzline
+        name="card_stat_costs"
+        command="\node (race) [draw, circle, fill=white, anchor=east, minimum width=1cm, minimum height=1cm,] at ($$$SX$$$,$$$SCY$$$) {\large $$$COSTS$$$};">
+    </tikzline>
+    <tikzline
+        name="card_level"
+        command="\node (class) at ($$$IMGPX$$$,$$$PYI$$$) {$$$$LEVEL$$$$};">
+    </tikzline>
+    <tikzline
+        name="rules"
+        command="\node[text width=$$$TW$$$cm, anchor=north west] (body) at ($$$RULEX$$$,$$$RULEY$$$) {\scriptsize\begin{tabular}{l r} $$$RULES$$$ \end{tabular}};">
+    </tikzline>
+    <tikzline
+        name="row"
+        command="\node [draw, circle, fill=white, minimum width=1cm, minimum height=1cm, path picture={\node [anchor=center]{\includegraphics[width=1cm] {$$$ROWIMG$$$}};}] at ($$$ROWX$$$,$$$ROWY$$$){};">
+    </tikzline>
+
+</data>

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<data>
+	<card 
+		name="Geist"
+		faction_id="MG"
+		level="1"
+		strength="2"
+		actions="0"
+		costs="5"
+		cardclass="Soldat"
+		image="card_img_M_Geist.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="gp007"></rule>
+		<rule id="gp010"></rule>
+	</card>
+	<card 
+		name="Verlorene Seele"
+		faction_id="MG"
+		level="1"
+		strength="1"
+		actions="1"
+		costs="5"
+		cardclass="Soldat"
+		image="card_img_M_Geist.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="gp007"></rule>
+		<rule id="gp010"></rule>
+		<rule id="aa001"></rule>
+	</card>
+	<card 
+		name="Zombie"
+		faction_id="MG"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="6"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+	</card>
+	<card 
+		name="Untotes Biest"
+		faction_id="MG"
+		level="2"
+		strength="5"
+		actions="0"
+		costs="10"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp010"></rule>
+	</card>
+	<card 
+		name="Vampir"
+		faction_id="MG"
+		level="1"
+		strength="4"
+		actions="2"
+		costs="10"
+		cardclass="Soldat"
+		image="card_img_M_Vampir.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="ma011"></rule>
+	</card>
+	<card 
+		name="Vampirfürst"
+		faction_id="MG"
+		level="3"
+		strength="7"
+		actions="2"
+		costs="17"
+		cardclass="Soldat"
+		image="card_img_M_Vampirfuerst.jpg">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="ma011"></rule>
+	</card>
+	<card 
+		name="Untoter König"
+		faction_id="MG"
+		level="2"
+		strength="6"
+		actions="3"
+		costs="16"
+		cardclass="Soldat"
+		image="card_img_M_UntoterKoenig.jpg">
+		<row name="CLOSE"></row>
+		<rule id="gp007"></rule>
+		<rule id="gp010"></rule>
+		<rule id="aa001"></rule>
+		<rule id="ma014"></rule>
+	</card>
+	<card 
+		name="Schwarzmagier"
+		faction_id="MG"
+		level="2"
+		strength="2"
+		actions="2"
+		costs="10"
+		cardclass="Soldat"
+		image="card_img_E_Schamane.jpg">
+		<row name="RANGED"></row>
+		<rule id="ap001"></rule>
+		<rule id="ca004"></rule>
+		<rule id="ma006"></rule>
+	</card>
+	<card 
+		name="Wilde Hexe"
+		faction_id="MG"
+		level="1"
+		strength="2"
+		actions="2"
+		costs="8"
+		cardclass="Soldat"
+		image="card_img_E_Schamane.jpg">
+		<row name="RANGED"></row>
+		<rule id="ca004"></rule>
+	</card>
+	<card 
+		name="Nekromant"
+		faction_id="MG"
+		level="3"
+		strength="6"
+		actions="4"
+		costs="21"
+		cardclass="Soldat">
+		<row name="RANGED"></row>
+		<rule id="ca004"></rule>
+		<rule id="ca007"></rule>
+		<rule id="ma006"></rule>
+	</card>
+    <card 
+        name="Wolfsgeist"
+		faction_id="MG"
+        level="1"
+        strength="2"
+        actions="0"
+        costs="5"
+        cardclass="Soldat"
+		image="card_img_M_Geist.jpg">
+        <row name="CLOSE"></row>
+		<rule id="gp007"></rule>
+		<rule id="gp010"></rule>
+    </card>
+	<card 
+		name="Verfluchte Grabstätte"
+		faction_id="MG"
+		level="2"
+		strength="2"
+		actions="1"
+		costs="5"
+		cardclass="Konstrukt">
+		<row name="SUPPORT"></row>
+		<rule id="gp001"></rule>
+		<rule id="gp005"></rule>
+		<rule id="ap001"></rule>
+		<rule id="ma015"></rule>
+	</card>
+</data>

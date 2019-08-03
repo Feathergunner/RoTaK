@@ -1,0 +1,482 @@
+<?xml version="1.0"?>
+<data>
+	<!--
+		General rules defining fundamental card properties
+	-->
+	<rule
+		id="gp001"
+		type="passive"
+		effect="Ignoriert Moralboni. Diese Einheit wird sofort vom Spielfeld genommen, wenn ihre effektive Kartenstärke 0 ist.">
+		<label GEN="Konstrukt"></label>
+	</rule>
+	<rule
+		id="gp002"
+		type="passive"
+		effect="Immun gegen Moralboni und Moralmali.">
+		<label Menschen="Zivilist" Neutral="Zivilist"></label>
+	</rule>
+	<rule
+		id="gp004"
+		type="passive"
+		effect="Immun gegen Moralmali.">
+		<label Monster="Wild" Zwerge="Kampfrausch" Menschen="Kampfrausch"></label>
+	</rule>
+	<rule
+		id="mp001"
+		type="passive"
+		effect="Negative Moraleffekte haben doppelten Effekt auf diese Einheit">
+		<label Menschen="Schwache Moral"></label>
+	</rule>
+	<rule
+		id="mp004"
+		type="passive"
+		effect="Diese Einheit bekommt zu Rundenende +1 Moral für jede identische Einheit in ihrer Reihe.">
+		<label Monster="Stärke des Rudels" Menschen="Schlachtformation" Elfen="Schlachtformation" Zwerge="Schlachtformation"></label>
+	</rule>
+	<rule
+		id="gp003"
+		type="passive"
+		effect="Spiele diese Karte auf der Seite deines Gegners. Bezüglich Kartenstärke und Moral zählt diese Karte als Einheit deines Gegners. Du kontrollierst jedoch weiterhin diese Karte bezüglich ihrer Aktionen.">
+		<label GEN="Spion"></label>
+	</rule>
+	<rule
+		id="mp003"
+		type="passive"
+		effect="Die aktiven Fähigkeiten dieser Einheit verursachen an Konstrukten doppelte Moralmali.">
+		<label GEN="Demolierend"></label>
+	</rule>
+	<rule
+		id="gp005"
+		type="passive"
+		effect="Diese Einheit und ihre Moralboni zählen am Rundenende nicht zur Armeestärke.">
+		<label GEN="Inaktiv"></label>
+	</rule>
+	<rule
+		id="gp006"
+		type="passive"
+		effect="Wenn die Einheit am Rundenende nicht-negative Moral hat, verbleibt sie auf dem Schlachtfeld.">
+		<label GEN="Zäh"></label>
+	</rule>
+	<rule
+		id="gp007"
+		type="passive"
+		effect="Diese Einheit ist immun gegen die Effekte von Konstrukten.">
+		<label Monster="Körperlos" Elfen="Flink"></label>
+	</rule>
+	<rule
+		id="gp008"
+		type="passive"
+		effect="Kann auch Einheiten mit Wild oder Kampfrausch Moralmali zufügen.">
+		<label Zwerge="Feuerschaden" Monster="Giftig" Menschen="Göttlicher Zorn"></label>
+	</rule>
+	<rule
+		id="gp009"
+		type="passive"
+		effect="Nach einer verlorenen Runde gehen die beiden adjazenten Karten zurück auf die Hand.">
+		<label Menschen="Geordneter Rückzug" Zwerge="Geordneter Rückzug"></label>
+	</rule>
+	<rule
+		id="gp010"
+		type="passive"
+		effect="Diese Einheit kann nur von Sonderregeln beeinflusst werden, wenn die ausführende Einheit Konstrukt ist oder positiver Moral hat.">
+		<label Monster="Bedrohlich" Elfen="Uralte Aura"></label>
+	</rule>
+	<rule
+		id="gp011"
+		type="passive"
+		effect="Für die Belange von anderen Sonderregeln wird diese Karte immer behandelt, als hätte sie positive Moral.">
+		<label Elfen="Altes Blut" Menschen="Heroisch"></label>
+	</rule>
+	<rule
+		id="gp012"
+		type="passive"
+		effect="Jedes Mal, wenn eine weitere Einheit in derselben Schlachtreihe dieser Einheit gespielt wird, erhält diese Einheit +1 Moral.">
+		<label Zwerge="Gruppenstärke"></label>
+	</rule>
+	<rule
+		id="gp013"
+		type="passive"
+		effect="Jedes Mal, wenn eine Einheit in der gegenüberliegenden Schlachtreihe dieser Einheit gespielt wird, erhält diese Einheit +1 Moral.">
+		<label Zwerge="Ruhmvoll"></label>
+	</rule>
+	<rule
+		id="gp014"
+		type="passive"
+		effect="Ich erfinde mein eigenes Kartenspiel! Mit Blackjack und Nutten! (Kein Effekt)">
+		<label GEN="Blackjack und Nutten"></label>
+	</rule>
+
+	<!--
+		Abilities that affect enemy cards negatively
+	-->
+	<rule
+		id="ma002"
+		type="active"
+		cost="1"
+		effect="Gib einer gegnerischen Nahkampf-Einheit -1 Moral.">
+		<label Menschen="Überfall" Zwerge="Überfall" Elfen="Überfall" Monster="Einschüchtern"></label>
+	</rule>
+	<rule
+		id="ma010"
+		type="active"
+		cost="1"
+		effect="Gib einer gegnerischen Fernkampf-Einheit -1 Moral.">
+		<label Menschen="Pfeilhagel" Elfen="Pfeilhagel"></label>
+	</rule>
+	<rule
+		id="ma003"
+		type="active"
+		cost="1"
+		effect="Gib einer gegnerischen Unterstützer-Einheit -1 Moral.">
+		<label GEN="Ausrüstung zerstören"></label>
+	</rule>
+	<rule
+		id="ma016"
+		type="active"
+		cost="1"
+		effect="Gib einer gegnerischen Einheit einer beliebigen Reihe -1 Moral.">
+		<label Monster="Luftangriff" Menschen="Ballistenbeschuss"></label>
+	</rule>
+	<rule
+		id="ma006"
+		type="active"
+		cost="2"
+		effect="Gib bis zu drei adjazenten gegnerischen Einheiten einer beliebigen Reihe -1 Moral.">
+		<label Menschen="Schwerer Beschuss" Zwerge="Schwerer Beschuss" Monster="Verfluchter Nebel" Elfen="Uralter Nebel"></label>
+	</rule>
+	<rule
+		id="ma007"
+		type="active"
+		cost="3"
+		effect="Gib einer gegnerischen Einheiten einer beliebigen Reihe -5 Moral.">
+		<label Zwerge="Gezielter Schuss"></label>
+	</rule>
+	<rule
+		id="aa001"
+		type="active"
+		cost="1"
+		effect="Entferne bis zu 2 Aktionsmarker von einer gegnerischen Einheit einer beliebigen Reihe.">
+		<label Monster="Verfluchen" Menschen="Verfluchen" Elfen="Verfluchen"></label>
+	</rule>
+	<rule
+		id="ma012"
+		type="active"
+		cost="4"
+		effect="Entferne diese Einheit vom Schlachtfeld. Gib bis zu drei gegnerischen Nahkampf-Einheiten jeweils bis zu -3 Moral.">
+		<label Menschen="Kamikaze-Angriff" Zwerge="Zünden"></label>
+	</rule>
+	<rule
+		id="ma014"
+		type="active"
+		cost="2"
+		effect="Entferne die Hälfte der Moralboni von einer gegnerischen Einheit deiner Wahl.">
+		<label Monster="Terror"></label>
+	</rule>
+	<rule
+		id="ga002"
+		type="active"
+		cost="1"
+		effect="Wähle eine Einheit auf der gegnerischen Schlachtfeldseite. Verschiebe diese Einheit an eine beliebige Position in ihrer Schlachtreihe">
+		<label Monster="Panik auslösen"></label>
+	</rule>
+
+	<!--
+		Abilities that give moral or activity boosts to own card
+	-->
+	<rule
+		id="ma001"
+		type="active"
+		cost="1"
+		effect="Entferne alle Moraleffekte von einer eigenen nicht-Konstrukt-Einheit.">
+		<label Menschen="Aufmuntern" Zwerge="Aufmuntern" Elfen="Ballade singen"></label>
+	</rule>
+	<rule
+		id="ma004"
+		type="active"
+		cost="3"
+		effect="Wähle eine Schlachtreiehe. Gib allen eigenen Einheiten dieser Schlachtreihe jeweils +1 Moral oder +1 Aktion.">
+		<label GEN="---"></label>
+	</rule>
+	<rule
+		id="ma005"
+		type="active"
+		cost="1"
+		effect="Gib einer eigenen Nahkampf-Einheit +1 Moral.">
+		<label Menschen="Rüstung ausbessern" Zwerge="Rüstung ausbessern" Elfen="Rüstung ausbessern"></label>
+	</rule>
+	<rule
+		id="ma017"
+		type="active"
+		cost="1"
+		effect="Gib einer eigenen Einheit +1 Moral.">
+		<label Menschen="Waffen segnen" Zwerge="Met ausschenken"></label>
+	</rule>
+	<rule
+		id="ma018"
+		type="active"
+		cost="2"
+		effect="Gib zwei eigenen Einheiten jeweils +1 Moral.">
+		<label Menschen="Trompetenfanfare" Zwerge="Trommelwirbel"></label>
+	</rule>
+	<rule
+		id="ma019"
+		type="active"
+		cost="3"
+		effect="Gib drei eigenen Einheiten jeweils +1 Moral.">
+		<label HZwerge="Horn blasen"></label>
+	</rule>
+	<rule
+		id="ma008"
+		type="active"
+		cost="1"
+		effect="Gibt einer eigenen Konstrukt-Einheit +2 Aktion">
+		<label Zwerge="Belagerungsgeräte bedienen"></label>
+	</rule>
+	<rule
+		id="ma009"
+		type="active"
+		cost="1"
+		effect="Entferne alle Moraleffekte von einer eigenen Konstrukt-Einheit.">
+		<label Zwerge="Reparieren"></label>
+	</rule>
+	<rule
+		id="ma011"
+		type="active"
+		cost="2"
+		effect="Entferne eine verbündete Einheit aus einer beliebigen Reihe vom Schlachtfeld. Füge dieser Einheit Moralboni in Höhe der Kartenstärke der entfernten Einheit hinzu.">
+		<label Monster="Verschlingen"></label>
+	</rule>
+	<rule
+		id="ma013"
+		type="active"
+		cost="1"
+		effect="Gib einer verbündeten nicht-Konstrukt-Einheit +1 Aktion. Wenn die Einheit Märtyrer ist, gib ihr zusätzlich +1 Aktion.">
+		<label Menschen="Predigt: Anstacheln"></label>
+	</rule>
+	<rule
+		id="ma015"
+		type="active"
+		cost="1"
+		effect="Gib einer verbündeten nicht-Konstrukt-Einheit +1 Aktion.">
+		<label Elfen="Heiliges Wasser" Zwerge="Schlachtruf" Monster="Pesthauch"></label>
+	</rule>
+
+	<!--
+		Passive characteristics that effect actions or moral modifications
+	-->
+	<rule
+		id="ap001"
+		type="passive"
+		effect="Wenn diese Einheit am Ende eines Zuges nicht mehr alle Aktionspunkte hat, erhält sie +1 Aktion.">
+		<label GEN="Regeneration"></label>
+	</rule>
+	<rule
+		id="mp002"
+		type="passive"
+		effect="Alle adjazenten nicht-Konstrukt-Einheiten sind immun gegen Moralmali.">
+		<label Menschen="Inspirierend" Zwerge="Inspirierend" Elfen="Inspirierend"></label>
+	</rule>
+	<rule
+		id="mp005"
+		type="passive"
+		effect="Diese Einheit profitiert doppelt von Moralboni">
+		<label Menschen="Fanatisch" Zwerge="Fanatisch"></label>
+	</rule>
+
+	<!--
+		Abilities of spies
+	-->
+	<rule
+		id="sa001"
+		type="active"
+		cost="1"
+		effect="Wähle verdeckt drei Karten aus der Hand deines Gegners. Dein Gegner muss dir diese Karten zeigen.">
+		<label GEN="Spionage: Aufdecken" Menschen="Spionage: Aufdecken" Elfen="Aufklären"></label>
+	</rule>
+	<rule
+		id="sa002"
+		type="active"
+		cost="2"
+		effect="Dein Gegner muss eine Karte seiner Wahl von seiner Hand abwerfen.">
+		<label Menschen="Spionage: Sabotage"></label>
+	</rule>
+
+	<!--
+		Abilities that create tokens or allow drawing additional cards
+	-->
+	<rule
+		id="ca001"
+		type="active"
+		cost="1"
+		effect="Erzeuge ein Token: Wolf (1|0|0) mit Wild in der Nahkampf-Reihe.">
+		<label Monster="Rudelruf: Wolf" Elfen="Bestienruf: Wolf"></label>
+		<token 
+			name="Token: Wolf"
+			strength="1"
+			actions="0"
+			cardclass="Token">
+			<row name="CLOSE"></row>
+			<rule id="gp004"></rule>
+		</token>
+	</rule>
+	<rule
+		id="ca002"
+		type="active"
+		cost="3"
+		effect="Erzeuge ein Token: Bär (3|0|0) mit Wild in der Nahkampf-Reihe.">
+		<label Elfen="Bestienruf: Bär"></label>
+		<token 
+			name="Token: Bär"
+			strength="3"
+			actions="0"
+			cardclass="Token">
+			<row name="CLOSE"></row>
+			<rule id="gp004"></rule>
+		</token>
+	</rule>
+	<rule
+		id="ca005"
+		type="active"
+		cost="2"
+		effect="Erzeuge ein Token: Keiler (2|0|0) mit Wild in der Nahkampf-Reihe.">
+		<label Monster="Rudelruf: Keiler" Elfen="Bestienruf: Keiler"></label>
+		<token 
+			name="Token: Keiler"
+			strength="2"
+			actions="0"
+			cardclass="Token">
+			<row name="CLOSE"></row>
+			<rule id="gp004"></rule>
+		</token>
+	</rule>
+	<rule
+		id="ca003"
+		type="active"
+		cost="2"
+		effect="Erzeuge ein Token: Hexenjäger (2|0|0) mit Fanatisch in der Nahkampf-Reihe.">
+		<label Menschen="Predigt: Aufwiegeln"></label>
+		<token 
+			name="Token: Hexenjäger"
+			strength="2"
+			actions="0"
+			cardclass="Token">
+			<row name="CLOSE"></row>
+			<rule id="mp005"></rule>
+		</token>
+	</rule>
+	<rule
+		id="ca004"
+		type="active"
+		cost="2"
+		effect="Erzeuge ein Token: Geist (2|0|0) mit Körperlos in der Nahkampf- oder in der Fernkampf-Reihe.">
+		<label Monster="Beschwörung: Geist"></label>
+		<token 
+			name="Token: Geist"
+			strength="2"
+			actions="0"
+			cardclass="Token">
+			<row name="CLOSE"></row>
+			<row name="RANGED"></row>
+			<rule id="gp007"></rule>
+		</token>
+	</rule>
+	<rule
+		id="ca007"
+		type="active"
+		cost="1"
+		effect="Erzeuge ein Token: Zombie (1|0|0) in der Nahkampf-Reihe.">
+		<label Monster="Beschwörung: Zombie"></label>
+		<token 
+			name="Token: Zombie"
+			strength="1"
+			actions="0"
+			cardclass="Token">
+			<row name="CLOSE"></row>
+		</token>
+	</rule>
+	<rule
+		id="ca006"
+		type="active"
+		cost="1"
+		effect="Erzeuge ein Token: Falke (1|1|0) mit Luftangriff in der Fernkampf-Reihe.">
+		<label Zwerge="Rufen: Falke" Elfen="Rufen: Falke"></label>
+		<token 
+			name="Token: Falke"
+			strength="1"
+			actions="0"
+			cardclass="Token">
+			<row name="RANGED"></row>
+			<rule id="ma016"></rule>
+		</token>
+	</rule>
+	<rule
+		id="ga001"
+		type="active"
+		cost="2"
+		effect="Ziehe eine Karte">
+		<label Menschen="Rekrutierung" Monster="Nachwuchs"></label>
+	</rule>
+	<rule
+		id="ca008"
+		type="active"
+		cost="2"
+		effect="Wähle eine nicht-Konstrukt-Einheit von deinem Ablagestapel. Spiele diese Einheit sofort aus.">
+		<label GEN="Heilen"></label>
+	</rule>
+	<rule
+		id="ca009"
+		type="active"
+		cost="1"
+		effect="Ziehe eine Karte vom neutralen Stapel. Spiele diese Karte sofort aus.">
+		<label Elfen="Fügung des Schicksals"></label>
+	</rule>
+	<rule
+		id="ca010"
+		type="active"
+		cost="1"
+		effect="Siehe dir die oberste Karte des neutralen Stapels an.">
+		<label Elfen="Wissen"></label>
+	</rule>
+
+	<!-- Druid abilities that create passive-ability-tokens on units -->
+	<rule
+		id="ta001"
+		type="active"
+		cost="1"
+		effect="Gib einer eigenen Einheit die Eigenschaft: Kampfrausch">
+		<label Zwerge="Zaubertrank: Kampfrausch"></label>
+	</rule>
+	<rule
+		id="ta002"
+		type="active"
+		cost="1"
+		effect="Gib einer eigenen Einheit die Eigenschaft: Zäh">
+		<label Zwerge="Zaubertrank: Zäh"></label>
+	</rule>
+
+	<!-- Weather effects -->
+	<rule
+		id="w001"
+		type="passive"
+		effect="Alle aktuellen Wettereffekte werden aufgehoben">
+		<label GEN="Sonnenschein"></label>
+	</rule>
+	<rule
+		id="w002"
+		type="passive"
+		effect="Alle Einheiten in den Nahkampf-Reihen erhalten am Rundenende -2 Moral">
+		<label GEN="Frost"></label>
+	</rule>
+	<rule
+		id="w003"
+		type="passive"
+		effect="Alle Einheiten in den Fernkampf-Reihen erhalten am Rundenende -2 Moral">
+		<label GEN="Nebel"></label>
+	</rule>
+	<rule
+		id="w004"
+		type="passive"
+		effect="Alle Einheiten in den Unterstützer-Reihen erhalten am Rundenende -2 Moral">
+		<label GEN="Regen"></label>
+	</rule>
+</data>

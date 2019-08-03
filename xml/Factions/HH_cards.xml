@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<data>
+	<card 
+		name="Ordensritter"
+		faction_id="HH"
+		level="1"
+		strength="4"
+		actions="0"
+		costs="8"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+	</card>
+	<card 
+		name="Ordensbaron"
+		faction_id="HH"
+		level="2"
+		strength="6"
+		actions="0"
+		costs="12"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="mp002"></rule>
+	</card>
+	<card 
+		name="Ordensmeister"
+		faction_id="HH"
+		level="3"
+		strength="7"
+		actions="2"
+		costs="19"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="mp002"></rule>
+		<rule id="ma013"></rule>
+		<rule id="ma017"></rule>
+	</card>
+	<card 
+		name="Fanatiker"
+		faction_id="HH"
+		level="1"
+		strength="2"
+		actions="0"
+		costs="5"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="mp005"></rule>
+		<rule id="gp004"></rule>
+	</card>
+	<card
+		name="Märtyrer"
+		faction_id="HH"
+		level="1"
+		strength="1"
+		actions="0"
+		costs="10"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="ma012"></rule>
+	</card>
+	<card 
+		name="Tempelkrieger"
+		faction_id="HH"
+		level="1"
+		strength="3"
+		actions="0"
+		costs="7"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="mp005"></rule>
+		<rule id="gp011"></rule>
+	</card>
+	<card 
+		name="Tempelwache"
+		faction_id="HH"
+		level="2"
+		strength="5"
+		actions="0"
+		costs="11"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="mp005"></rule>
+		<rule id="gp011"></rule>
+	</card>
+	<card 
+		name="Hexenjäger"
+		faction_id="HH"
+		level="1"
+		strength="1"
+		actions="1"
+		costs="5"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="mp005"></rule>
+		<rule id="gp011"></rule>
+		<rule id="ma002"></rule>
+	</card>
+	<card 
+		name="Elite-Hexenjäger"
+		faction_id="HH"
+		level="2"
+		strength="2"
+		actions="2"
+		costs="10"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<row name="RANGED"></row>
+		<rule id="mp005"></rule>
+		<rule id="mp002"></rule>
+		<rule id="gp011"></rule>
+		<rule id="gp008"></rule>
+		<rule id="ma002"></rule>
+	</card>
+	<card 
+		name="Laienprediger"
+		faction_id="HH"
+		level="1"
+		strength="1"
+		actions="2"
+		costs="6"
+		cardclass="Soldat">
+		<row name="SUPPORT"></row>
+		<rule id="ca003"></rule>
+	</card>
+	<card 
+		name="Priester"
+		faction_id="HH"
+		level="2"
+		strength="1"
+		actions="1"
+		costs="9"
+		cardclass="Soldat">
+		<row name="SUPPORT"></row>
+		<rule id="ap001"></rule>
+		<rule id="ma017"></rule>
+		<rule id="ma013"></rule>
+	</card>
+	<card 
+		name="Armeepriester"
+		faction_id="HH"
+		level="1"
+		strength="2"
+		actions="2"
+		costs="10"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<rule id="gp011"></rule>
+		<rule id="ma017"></rule>
+	</card>
+	<card 
+		name="Erzmagier"
+		faction_id="HH"
+		level="3"
+		strength="8"
+		actions="1"
+		costs="8"
+		cardclass="Soldat">
+		<row name="CLOSE"></row>
+		<row name="SUPPORT"></row>
+		<rule id="ap001"></rule>
+		<rule id="aa001"></rule>
+	</card>
+	<card 
+		name="Hohepriester"
+		faction_id="HH"
+		level="3"
+		strength="1"
+		actions="3"
+		costs="13"
+		cardclass="Soldat">
+		<row name="SUPPORT"></row>
+		<rule id="ap001"></rule>
+		<rule id="ca003"></rule>
+		<rule id="ma013"></rule>
+	</card>
+</data>
+		
