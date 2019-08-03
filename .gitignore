@@ -3,4 +3,5 @@ pdf/*
 tex/*
 rules/*
 !rules/rules.tex
+!rules/rules.pdf
 */*.xcf
