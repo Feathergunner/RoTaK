@@ -8,7 +8,7 @@
 		actions="0"
 		costs="9"
 		cardclass="Soldat"
-		image="card_img_Z_Dwarf.jpg">
+		image="card_img_Z_Infantry.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp006"></rule>
 	</card>
@@ -45,7 +45,7 @@
 		actions="0"
 		costs="14"
 		cardclass="Soldat"
-		image="card_img_Z_Dwarf.jpg">
+		image="card_img_Z_Axe.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp004"></rule>
 		<rule id="mp005"></rule>
@@ -134,7 +134,7 @@
 		actions="0"
 		costs="8"
 		cardclass="Soldat"
-		image="card_img_Z_Dwarf.jpg">
+		image="card_img_Z_Axe.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp006"></rule>
 		<rule id="gp013"></rule>

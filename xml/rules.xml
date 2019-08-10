@@ -176,8 +176,8 @@
 		id="ga002"
 		type="active"
 		cost="1"
-		effect="Wähle eine Einheit auf der gegnerischen Schlachtfeldseite. Verschiebe diese Einheit an eine beliebige Position in ihrer Schlachtreihe">
-		<label Monster="Panik auslösen"></label>
+		effect="Wähle eine Einheit auf der gegnerischen Schlachtfeldseite. Verschiebe diese Einheit an eine beliebige Position in ihrer Schlachtreihe.">
+		<label Monster="Panik verursachen"></label>
 	</rule>
 
 	<!--
