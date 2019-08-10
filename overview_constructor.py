@@ -3,6 +3,7 @@
 
 import sys
 import re
+import os
 
 import CardSet
 import RulesData
@@ -57,7 +58,9 @@ def construct_overview_puretikz(cd, race, outputfilename="output"):
 	outputfile_rules.close()
 
 def construct_overview(code="ALL", only_puretikz=False):
-	#construct_tex_marker()
+	if not os.path.exists("tex"):
+		os.makedirs("tex/")
+	
 	if code == "ALL":
 		codes = factiondata.get_all_keys()
 	elif code in factiondata:
