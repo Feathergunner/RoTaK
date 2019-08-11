@@ -27,7 +27,7 @@
 % COMMANDS ---------------------------------------------
 \newcommand{\fref}[1]{Abbildung~\ref{#1}}
 \newcommand{\sref}[1]{Abschnitt~\ref{#1}}
-\newcommand{\cref}[1]{Chapter~\ref{#1}}
+\newcommand{\cref}[1]{Kapitel~\ref{#1}}
 
 \newcommand{\titleofcard}[1]{\large\textbf{#1}}
 
@@ -44,7 +44,7 @@
 \textsc{
 %{\Huge Rotak}\\[0.5cm]
 {\huge Ein regeloffenes taktisches Kartenspiel}}\\[0.5cm]
-Version 0.1 -- \today \\
+Version 0.2 -- \today \\
 \vfill
 %Copyright (c) 2019 Andreas Goral
 \end{center}
@@ -52,11 +52,22 @@ Version 0.1 -- \today \\
 \tableofcontents
 \newpage
 
+\paragraph{}
 Zwei feindlich gesinnte Armeen sind aufeinandergetroffen. Noch schärfen die Soldaten ihre Waffen, tauschen Botschafter Nachrichten aus. Spione infiltrieren die feindlichen Lager, und die Generäle planen die Schlacht und evaluieren ihre Chancen. Doch die ersten Scharmüzel brechen bereits aus.
 
+\paragraph{}
 Dies ist ein Kartenspiel. Die Spieler sind verfeindete Armeeführer, die aus der ihnen zur Verfügung stehenden Armee Truppen zusammenstellen, die in mehreren Scharmüzeln und Kämpfen gegen den Feind bestehen müssen. Dabei müssen sie die richtige Strategie finden und klug taktieren. Ein unvorsichtiger Kommandant hat seine Einheiten schon vor der Schlacht erschöpft, aber ein erfahrener General kann seine Gegner ausmanövrieren und im entscheidenen Augenblick mit aller Macht angreifen.
 
-\chapter{Spielregeln}
+\paragraph{}
+Dieses Spiel ist Regeloffen und Open-Source, das heisst mit den beigefügten Python-Skripten können eigene Spielkarten, Sonderregeln und ganze Fraktionen erzeugt werden. Jeder Spieler kann sich einfach sein eigenes Kartenset ausdrucken und bei Bedarf die Regeln an die eigenen Vorstellungen anpassen - das bedeutet aber auch, dass die Spieler größtenteils selbst dafür verantwortlich sind, ausgeglichene Kartensets zu erzeugen.
+
+\paragraph{}
+Für alle, die gleich losspielen wollen, werden in \cref{ch:rules} die allgemeinen Begriffe und die Spielregeln erklärt. Wer in eigenes Deck, eigene Spielkarten oder eine eigene Fraktion erstellen will, findet eine Dokumentation der Datenstrukturen und des Codes in \cref{ch:code}. Dort wird auch Schritt-für-Schritt erklärt, wie eigene Spielelemente definiert werden können. Schließlich gibt es in \cref{ch:uebersicht} eine Auflistung aller bisher enthaltenen Fraktionen und Spielkarten.
+
+\paragraph{}
+Viel Spaß!
+
+\chapter{Spielregeln}\label{ch:rules}
 \section{Grundlagen}
 Wir beginnen die Erläuterung der Spielregeln mit einem Überblick über die grundlegenden Elemente des Spiels. Zuerst wird in \sref{ssec:Karten} erklärt, wie eine Spielkarte aufgebaut ist und was die einzelnen Parameter bedeuten. Danach gehen wir in \sref{ssec:Sonderregeln} darauf ein, wie Kartenspezifische Sonderregeln funktionieren. Im dritten Abschnitt (\sref{ssec:Deck}) geht es dann um das komplette Kartendeck zum Spielen. Schließlich wird in \sref{ssec:Bereiche} beschrieben, welche Spielfeldbereiche und Kartenstapel es während des Spiels gibt.
 
@@ -399,104 +410,8 @@ Sobald ein Spieler zwei Spielrunden gewonnen hat, ist das Spiel vorbei und diese
 	\item Es ist auch denkbar, die Beschränkungen beim Deckbau anzupassen. Insbesondere die Gesamtproviantkosten und die Mindestkartenanzahl können an die eigenen Präferenzen angepasst werden. Wenn jedoch die Einschränkungen zur Kartenanzahl zu stark verändert werden, kann das weitreichende Auswirkungen auf das Spielbalancing haben.
 \end{itemize}
 
-\chapter{Übersicht über Völker, Fraktionen und Karten}
-in diesem Kapitel werden alle vorgegebenen Fraktionen vorgestellt. Für jede Fraktion werden alle existierenden Karten gezeigt und alle relevanten Sonderregeln angegeben.
 
-\section{Menschen}
-\subsection{Kaiserreich}
-\paragraph{Beschreibung}~\\
-Der Kaiser der Menschen herrscht über ein großes Reich und verfügt über eine gutausgerüstete Armee. Ihre Kampfstrategie basiert auf starken Belagerungswaffen und zahlenmässige Überlegenheit. Außerdem verfügen sie über Spione, die hinter den feindlichen Linien wertvolle Informationen sammeln und die gegnerischen Anstrengungen sabotieren.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/HK_puretikz_cards.tex}\\
-\input{../tex/HK_puretikz_rules.tex}
-
-\subsection{Heilige Armee}
-\paragraph{Beschreibung}~\\
-Die heilige Armee ist ein Zusammenschluss von gläubigen (oder beutegierigen) Rittern, die unter der Führung von Magiern und Geistlichen gegen alles Böse und Unheilige in den Kampf ziehen. Sie hoffen, durch ihren Kampf von den Göttern Vergebung für ihre Sünden zu erhalten.
-Ihr starker Glaube gibt ihnen große Moralboni in der Schlacht.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/HH_puretikz_cards.tex}\\
-\input{../tex/HH_puretikz_rules.tex}
-
-
-\section{Zwerge}
-\subsection{Armee des Zwergenkönigs}
-\paragraph{Beschreibung}~\\
-Zwerge sind exzellente Nahkämpfer, die sich nicht so schnell einschüchtern lassen. Die Armee des Zwergenkönigs verfügt darüber hinaus über Ausrüstung und Belagerungswaffen allerhöchster Qualität.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-%(Nächste Seite)
-%\includepdf[pages=-,pagecommand={}]{../pdf/DR.pdf}
-\input{../tex/ZK_puretikz_cards.tex}\\
-\input{../tex/ZK_puretikz_rules.tex}
-
-
-\subsection{Wilde Zwerge}
-\paragraph{Beschreibung}~\\
-Die Wilden Zwerge sind ein verstreut lebendes Volk, das dem rauen Klima im hohen Norden trotzt. Zwar sind sie weniger gut ausgerüstet als die Armee des Zwergenkönigs, aber das gleichen sie durch ihre Wildheit und Zähigkeit wieder aus.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/ZW_puretikz_cards.tex}\\
-\input{../tex/ZW_puretikz_rules.tex}
-
-
-\section{Elfen}
-\subsection{Hochelfen}
-\paragraph{Beschreibung}~\\
-Die Hochelfen sind ein altes und magisches Volk, die ihre Gegner allein durch ihre Anwesenheit einschüchtern. Wenn es zum Kampf kommt, sind diese Elfen beinahe unaufhaltsame Kampfmaschinen, und ihr unvergleichliches Wissen über alle Dinge verleiht ihnen noch manch zusätzlichen Vorteil.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/EH_puretikz_cards.tex}\\
-\input{../tex/EH_puretikz_rules.tex}
-
-
-\subsection{Waldelfen}
-\paragraph{Beschreibung}~\\
-Waldelfen sind nicht weniger mächtig als ihre Verwandten; aber sie bevorzugen Kampftaktiken, die auf Heimlichkeit beruhen. Sie überziehen ihre Gegner mit Sabotageaktioen und Überfällen. Außerdem sind sie eins mit der Natur und können sich auf die Hilfe von guten Geistern und manchen wilden Tieren verlassen.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-%(Nächste Seite)
-%\includepdf[pages=-,pagecommand={}]{../pdf/EW.pdf}
-\input{../tex/EW_puretikz_cards.tex}\\
-\input{../tex/EW_puretikz_rules.tex}
-
-\section{Monster}
-\subsection{Wilde Bestien}
-\paragraph{Beschreibung}~\\
-Manchmal versammeln sich die Monster und Tiere der Wildnis um ein besonders mächtiges Biest und greifen gemeinsam die anderen Völker an. Solch eine Rotte stellt auch für eine gutausgerüstete Armee ein ernstes Problem dar. Nicht nur sind manche Bestien von furchterregender Größe und Macht unter Ihnen; wegen ihre Wildheit und Zähigkeit sind sie auch schwer mit herkömmlichen Armeetaktiken zu bezwingen. Außerdem werden durch die Schreie der wilden Tiere während des Kampfes häufig noch weitere Tiere angelockt.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/MB_puretikz_cards.tex}\\
-\input{../tex/MB_puretikz_rules.tex}
-
-\subsection{Geister}
-\paragraph{Beschreibung}~\\
-Auf alten Friedhöfen, in verfallenen Burgruinen und an ehemaligen Schlachtfeldern existieren zahllose verfluchte Wesen wie Untote, Geister und Vampire. Mächtigen Schwarzmagiern oder Vampirfürsten gelingt es von Zeit zu Zeit, eine größere Menge dieser Wesen unter ihre Kontrolle zu zwingen. Diese Truppen verbreiten dann Terror und Horror wo immer sie auftauchen; und ihre Gegner sind meist schon vor dem Kampf vor Angst erschöpft.
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/MG_puretikz_cards.tex}\\
-\input{../tex/MG_puretikz_rules.tex}
-
-\section{Neutrale Karten}
-\subsection{Wetterkarten}
-\paragraph{Beschreibung}~\\
-(TO DO)
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/NW_puretikz_cards.tex}\\
-\input{../tex/NW_puretikz_rules.tex}
-
-\subsection{Fahrende Ritter}
-\paragraph{Beschreibung}~\\
-(TO DO)
-
-\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
-\input{../tex/NR_puretikz_cards.tex}\\
-\input{../tex/NR_puretikz_rules.tex}
-
-\chapter{Erläuterungen zum Code}
+\chapter{Erläuterungen zum Code}\label{ch:code}
 Dieses Kapitel erklärt, wie eigene Fraktionen, Karten, Sonderregeln und Decks erstellt und dem Spiel hinzugefügt werden können. Außerdem wird der Python-Code dieses Projekts grob dokumentiert.
 
 \section{Die Datenstruktur}
@@ -647,6 +562,105 @@ Um ein eigenes Deck zu einer PDF-Datei zu kompilieren, wird \verb+pdflatex+ mit 
 	\item \verb+amssymb+
 \end{itemize}
 
+\chapter{Übersicht über Völker, Fraktionen und Karten}\label{ch:uebersicht}
+in diesem Kapitel werden alle vorgegebenen Fraktionen vorgestellt. Für jede Fraktion werden alle existierenden Karten gezeigt und alle relevanten Sonderregeln angegeben.
+
+Es ist zu beachten, dass die hier vorgestellten Karten im Allgemeinen nur als \emph{Vorschlag} oder \emph{Inspiration} gedacht sind. Die Fraktionen wurden noch nicht ausführlich getestet und es wird keine Garantie gegeben, dass die hier angegebenen Karten und Fraktionen ausgeglichene Spielstärke haben und zu spannenden Partien führen.
+
+\section{Menschen}
+\subsection{Kaiserreich}
+\paragraph{Beschreibung}~\\
+Der Kaiser der Menschen herrscht über ein großes Reich und verfügt über eine gutausgerüstete Armee. Ihre Kampfstrategie basiert auf starken Belagerungswaffen und zahlenmässige Überlegenheit. Außerdem verfügen sie über Spione, die hinter den feindlichen Linien wertvolle Informationen sammeln und die gegnerischen Anstrengungen sabotieren.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/HK_puretikz_cards.tex}\\
+\input{../tex/HK_puretikz_rules.tex}
+
+\subsection{Heilige Armee}
+\paragraph{Beschreibung}~\\
+Die heilige Armee ist ein Zusammenschluss von gläubigen (oder beutegierigen) Rittern, die unter der Führung von Magiern und Geistlichen gegen alles Böse und Unheilige in den Kampf ziehen. Sie hoffen, durch ihren Kampf von den Göttern Vergebung für ihre Sünden zu erhalten.
+Ihr starker Glaube gibt ihnen große Moralboni in der Schlacht.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/HH_puretikz_cards.tex}\\
+\input{../tex/HH_puretikz_rules.tex}
+
+
+\section{Zwerge}
+\subsection{Armee des Zwergenkönigs}
+\paragraph{Beschreibung}~\\
+Zwerge sind exzellente Nahkämpfer, die sich nicht so schnell einschüchtern lassen. Die Armee des Zwergenkönigs verfügt darüber hinaus über Ausrüstung und Belagerungswaffen allerhöchster Qualität.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+%(Nächste Seite)
+%\includepdf[pages=-,pagecommand={}]{../pdf/DR.pdf}
+\input{../tex/ZK_puretikz_cards.tex}\\
+\input{../tex/ZK_puretikz_rules.tex}
+
+
+\subsection{Wilde Zwerge}
+\paragraph{Beschreibung}~\\
+Die Wilden Zwerge sind ein verstreut lebendes Volk, das dem rauen Klima im hohen Norden trotzt. Zwar sind sie weniger gut ausgerüstet als die Armee des Zwergenkönigs, aber das gleichen sie durch ihre Wildheit und Zähigkeit wieder aus.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/ZW_puretikz_cards.tex}\\
+\input{../tex/ZW_puretikz_rules.tex}
+
+
+\section{Elfen}
+\subsection{Hochelfen}
+\paragraph{Beschreibung}~\\
+Die Hochelfen sind ein altes und magisches Volk, die ihre Gegner allein durch ihre Anwesenheit einschüchtern. Wenn es zum Kampf kommt, sind diese Elfen beinahe unaufhaltsame Kampfmaschinen, und ihr unvergleichliches Wissen über alle Dinge verleiht ihnen noch manch zusätzlichen Vorteil.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/EH_puretikz_cards.tex}\\
+\input{../tex/EH_puretikz_rules.tex}
+
+
+\subsection{Waldelfen}
+\paragraph{Beschreibung}~\\
+Waldelfen sind nicht weniger mächtig als ihre Verwandten; aber sie bevorzugen Kampftaktiken, die auf Heimlichkeit beruhen. Sie überziehen ihre Gegner mit Sabotageaktioen und Überfällen. Außerdem sind sie eins mit der Natur und können sich auf die Hilfe von guten Geistern und manchen wilden Tieren verlassen.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+%(Nächste Seite)
+%\includepdf[pages=-,pagecommand={}]{../pdf/EW.pdf}
+\input{../tex/EW_puretikz_cards.tex}\\
+\input{../tex/EW_puretikz_rules.tex}
+
+\section{Monster}
+\subsection{Wilde Bestien}
+\paragraph{Beschreibung}~\\
+Manchmal versammeln sich die Monster und Tiere der Wildnis um ein besonders mächtiges Biest und greifen gemeinsam die anderen Völker an. Solch eine Rotte stellt auch für eine gutausgerüstete Armee ein ernstes Problem dar. Nicht nur sind manche Bestien von furchterregender Größe und Macht unter Ihnen; wegen ihre Wildheit und Zähigkeit sind sie auch schwer mit herkömmlichen Armeetaktiken zu bezwingen. Außerdem werden durch die Schreie der wilden Tiere während des Kampfes häufig noch weitere Tiere angelockt.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/MB_puretikz_cards.tex}\\
+\input{../tex/MB_puretikz_rules.tex}
+
+\subsection{Geister}
+\paragraph{Beschreibung}~\\
+Auf alten Friedhöfen, in verfallenen Burgruinen und an ehemaligen Schlachtfeldern existieren zahllose verfluchte Wesen wie Untote, Geister und Vampire. Mächtigen Schwarzmagiern oder Vampirfürsten gelingt es von Zeit zu Zeit, eine größere Menge dieser Wesen unter ihre Kontrolle zu zwingen. Diese Truppen verbreiten dann Terror und Horror wo immer sie auftauchen; und ihre Gegner sind meist schon vor dem Kampf vor Angst erschöpft.
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/MG_puretikz_cards.tex}\\
+\input{../tex/MG_puretikz_rules.tex}
+
+\section{Neutrale Karten}
+\subsection{Wetterkarten}
+\paragraph{Beschreibung}~\\
+(TO DO)
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/NW_puretikz_cards.tex}\\
+\input{../tex/NW_puretikz_rules.tex}
+
+\subsection{Fahrende Ritter}
+\paragraph{Beschreibung}~\\
+(TO DO)
+
+\paragraph{Übersicht aller Einheiten und Sonderregeln}~\\
+\input{../tex/NR_puretikz_cards.tex}\\
+\input{../tex/NR_puretikz_rules.tex}
+
 \chapter{Mögliche Erweiterungen und Alternativen}
 Beim Ausdenken neuer Völker, Decks und Karten sind der Fantasie prinzipiell keine Grenzen gesetzt. Die klassischen Fantasy-Universen lassen sich gut zur Inspiration heranziehen.
 
@@ -656,4 +670,5 @@ Die Begrifflichkeiten können auch soweit abgewandelt werden, dass es im Spiel g
 
 \paragraph{Beispiel eines alternativen Settings: Wettstreit zweier Festivalveranstalter}~\\
 Die Spieler sind jeweils Veranstalter eines mehrtägigen (Musik-)Festivals. Das Spiel geht über drei Runden, wobei jede Runde einem Festivaltag entspricht. In jeder Runde versuchen die Spieler ihren Festivaltag möglichst stimmungsvoll zu gestalten, in dem sie Karten in den Kategorien \emph{Bühne} (entspricht der Nahkampf-Reihe), \emph{Merchandise} (entspricht der Fernkampf-Reihe) und \emph{Zeltplatz} (entspricht der Support-Reihe) ausspielen. Anstatt verschiedener Völker gibt es verschiedene Festival-Typen, die unterschiedliche Spielmechaniken ermöglichen (z.\,B.\ ,,Metal-Festival'' oder ,,Alternatives Festival'').
+
 \end{document}

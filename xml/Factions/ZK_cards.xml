@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <data>
 	<card 
+		id="ZK1"
 		name="Infanterist"
 		faction_id="ZK"
 		level="1"
@@ -13,6 +14,7 @@
 		<rule id="mp005"></rule>
 	</card>
 	<card 
+		id="ZK2"
 		name="Axtkrieger"
 		faction_id="ZK"
 		level="1"
@@ -25,6 +27,7 @@
 		<rule id="mp005"></rule>
 	</card>
 	<card 
+		id="ZK3"
 		name="Armbrustschütze"
 		faction_id="ZK"
 		level="1"
@@ -37,6 +40,7 @@
 		<rule id="ma002"></rule>
 	</card>
 	<card
+		id="ZK4"
 		name="Champion"
 		faction_id="ZK"
 		level="3"
@@ -49,6 +53,7 @@
 		<rule id="mp002"></rule>
 	</card>
 	<card
+		id="ZK5"
 		name="König der Zwerge"
 		faction_id="ZK"
 		level="3"
@@ -62,6 +67,7 @@
 		<rule id="ma017"></rule>
 	</card>
 	<card 
+		id="ZK6"
 		name="Königsgarde"
 		faction_id="ZK"
 		level="2"
@@ -75,6 +81,7 @@
 		<rule id="mp005"></rule>
 	</card>
 	<card 
+		id="ZK7"
 		name="Maschinist"
 		faction_id="ZK"
 		level="1"
@@ -89,6 +96,7 @@
 		<rule id="ma009"></rule>
 	</card>
 	<card 
+		id="ZK8"
 		name="Zwergenschmied"
 		faction_id="ZK"
 		level="1"
@@ -101,6 +109,7 @@
 		<rule id="ma005"></rule>
 	</card>
 	<card 
+		id="ZK9"
 		name="Meister der Schmiede"
 		faction_id="ZK"
 		level="2"
@@ -114,6 +123,7 @@
 		<rule id="ma005"></rule>
 	</card>
 	<card 
+		id="ZK10"
 		name="Steinschleuder"
 		faction_id="ZK"
 		level="1"
@@ -127,6 +137,7 @@
 		<rule id="ma006"></rule>
 	</card>
 	<card 
+		id="ZK11"
 		name="Schwere Balliste"
 		faction_id="ZK"
 		level="1"
@@ -140,6 +151,7 @@
 		<rule id="ma007"></rule>
 	</card>
 	<card 
+		id="ZK12"
 		name="Bombe"
 		faction_id="ZK"
 		level="1"
@@ -155,6 +167,7 @@
 		<rule id="ma012"></rule>
 	</card>
 	<card 
+		id="ZK13"
 		name="Feuerwerfer"
 		faction_id="ZK"
 		level="1"
@@ -167,6 +180,7 @@
 		<rule id="ma002"></rule>
 	</card>
 	<card 
+		id="ZK14"
 		name="Braumeister"
 		faction_id="ZK"
 		level="1"
@@ -179,6 +193,7 @@
 		<rule id="ma017"></rule>
 	</card>
 	<card 
+		id="ZK15"
 		name="Kriegspauke"
 		faction_id="ZK"
 		level="1"
@@ -191,6 +206,7 @@
 		<rule id="ma018"></rule>
 	</card>
 	<card
+		id="ZK16"
 		name="Standarte"
 		faction_id="ZK"
 		level="2"
@@ -206,6 +222,7 @@
 		<rule id="gp005"></rule>
 	</card>
 	<card
+		id="ZK17"
 		name="General"
 		faction_id="ZK"
 		level="2"
@@ -218,7 +235,8 @@
 		<rule id="gp009"></rule>
 	</card>
 	<card
-		name="Junger Zwergenkrieger"
+		id="ZK18"
+		name="Junger Krieger"
 		faction_id="ZK"
 		level="1"
 		strength="1"
