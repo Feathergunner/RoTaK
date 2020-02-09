@@ -78,7 +78,7 @@
 	<rule
 		id="gp010"
 		type="passive"
-		effect="Diese Einheit kann nur von Sonderregeln beeinflusst werden, wenn die ausführende Einheit Konstrukt ist oder positiver Moral hat.">
+		effect="Diese Einheit kann nur von Sonderregeln beeinflusst werden, wenn die ausführende Einheit Konstrukt ist oder positive Moral hat.">
 		<label Monster="Bedrohlich" Elfen="Uralte Aura"></label>
 	</rule>
 	<rule

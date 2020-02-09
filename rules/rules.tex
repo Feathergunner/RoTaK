@@ -487,7 +487,7 @@ Ferner sind die folgenden Child-Komponenten notwendig:
 		\item \verb+CLOSE+ : Für die Nahkampfreihe
 		\item \verb+RANGED+ : Für die Fernkampfreihe
 		\item \verb+SUPPORT+ : Für die Unterstützungs- und Belagerungsreihe
-		\item \verb+WEATHER+ (nur neutrale Karten) : Für die neutrale WettereffektsReihe
+		\item \verb+WEATHER+ (nur neutrale Karten) : Für die neutrale Wettereffekt-Reihe
 	\end{itemize}
 	\item \verb+rule+ (\emph{Optional}, maximal $5\times$) : Enthält die ID einer Sonderregel, die diese Karte haben soll. Diese Komponente \emph{muss} das Attribut \verb+id+ enthalten. Dieses Attribut wiederum muss eine ID einer Sonderregel enthalten, die in der Datei \verb+xml/rules.xml+ definiert ist.
 \end{itemize}
@@ -506,7 +506,7 @@ Eine solche Komponente muss die folgenden Attribute enthalten:
 Außerdem ist eine Child-Komponente \verb+label+ notwendig. Diese Komponente muss ein Attribut mit dem Namen jedes Volkes haben, das diese Sonderregel verwenden darf; der Wert der Attribute muss die entsprechende Bezeichnung der Regel für das Volk sein. Ein Beispiel: Angenommen, wir haben uns eine neue Regel ausgedacht; und nur Menschen oder Zwerge sollen diese Regel verwenden dürfen. Bei den Zwergen soll die Regel mit \emph{Grauer Bart} bezeichnet werden, aber bei Menschen soll die neue Regel \emph{Geschichtenerzähler} heissen. Dann muss die \verb+label+-Komponente die folgenden zwei Attribute erhalten:
 \begin{itemize}
 	\item \verb+Zwerge="Grauer Bart"+
-	\item \verb+Menschen="Geschichtenerzähler+
+	\item \verb+Menschen="Geschichtenerzähler"+
 \end{itemize}
 So ist es möglich, die Sonderregeln thematisch anzupassen. Außerdem kann eine Regel nicht einer Karte zugewiesen werden, wenn die Regel keine Bezeichnung für das Volk der Karte vorsieht. Damit wird sichergestellt, dass die Völker verschiedene Sets an Sonderregeln haben und so unterschiedliche Spieltaktiken ermöglichen.
 
