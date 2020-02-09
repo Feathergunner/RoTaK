@@ -94,7 +94,8 @@
 		strength="4"
 		actions="0"
 		costs="8"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_M_golem.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp001"></rule>
 	</card>
@@ -105,7 +106,8 @@
 		strength="5"
 		actions="1"
 		costs="12"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_M_firegolem.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp001"></rule>
 		<rule id="mp003"></rule>
@@ -224,7 +226,8 @@
 		strength="2"
 		actions="1"
 		costs="4"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_M_spider.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp010"></rule>
         <rule id="gp008"></rule>

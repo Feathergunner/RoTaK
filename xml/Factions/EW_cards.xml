@@ -124,7 +124,7 @@
 		actions="1"
 		costs="5"
 		cardclass="Soldat"
-		image="card_img_E_Schamane.jpg">
+		image="card_img_E_druid.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="ca009"></rule>
 	</card>
@@ -135,7 +135,8 @@
 		strength="1"
 		actions="2"
 		costs="6"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_E_druid.jpg">
 		<row name="RANGED"></row>
 		<row name="SUPPORT"></row>
 		<rule id="gp007"></rule>
@@ -148,7 +149,8 @@
 		strength="2"
 		actions="3"
 		costs="10"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_E_druid.jpg">
 		<row name="RANGED"></row>
 		<row name="SUPPORT"></row>
 		<rule id="gp007"></rule>
@@ -161,7 +163,8 @@
 		strength="3"
 		actions="1"
 		costs="6"
-		cardclass="Konstrukt">
+		cardclass="Konstrukt"
+		image="card_img_E_shrine.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="gp001"></rule>
 		<rule id="gp005"></rule>

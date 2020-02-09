@@ -150,7 +150,8 @@
 		strength="2"
 		actions="1"
 		costs="5"
-		cardclass="Konstrukt">
+		cardclass="Konstrukt"
+		image="card_img_M_grave.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="gp001"></rule>
 		<rule id="gp005"></rule>

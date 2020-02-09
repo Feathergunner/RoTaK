@@ -35,7 +35,7 @@
 		actions="1"
 		costs="10"
 		cardclass="Soldat"
-		image="card_img_Z_Dwarf.jpg">
+		image="card_img_D_crossbow.jpg">
 		<row name="RANGED"></row>
 		<rule id="ma002"></rule>
 	</card>

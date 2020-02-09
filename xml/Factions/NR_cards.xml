@@ -8,7 +8,8 @@
 		strength="4"
 		actions="0"
 		costs="0"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_H_Elitesoldat.jpg">
 		<row name="CLOSE"></row>
 	</card>
 	<card 
@@ -19,7 +20,8 @@
 		strength="2"
 		actions="2"
 		costs="0"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_E_druid.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="ca008"></rule>
 	</card>
@@ -31,7 +33,8 @@
 		strength="1"
 		actions="1"
 		costs="0"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_E_merchant.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="gp002"></rule>
 		<rule id="gp003"></rule>

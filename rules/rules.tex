@@ -18,10 +18,10 @@
 \usepackage{tikz}
 \usetikzlibrary{patterns, snakes, shapes.misc, positioning}
 % cache tikz images
-\usepackage{shellesc}
-\usetikzlibrary{external}
+%\usepackage{shellesc}
+%\usetikzlibrary{external}
 % name of the folder where images are cached (create folder by yourself)
-\tikzexternalize[prefix=tikz/]
+%\tikzexternalize[prefix=tikz/]
 % ------------------------------------------------------
 
 % COMMANDS ---------------------------------------------
@@ -44,7 +44,7 @@
 \textsc{
 %{\Huge Rotak}\\[0.5cm]
 {\huge Ein regeloffenes taktisches Kartenspiel}}\\[0.5cm]
-Version 0.2 -- \today \\
+Version 0.2.1 -- \today \\
 \vfill
 %Copyright (c) 2019 Andreas Goral
 \end{center}
@@ -560,6 +560,7 @@ Um ein eigenes Deck zu einer PDF-Datei zu kompilieren, wird \verb+pdflatex+ mit 
 	\item \verb+graphicx+
 	\item \verb+amsmath+
 	\item \verb+amssymb+
+	\item \verb+shellesc+
 \end{itemize}
 
 \chapter{Übersicht über Völker, Fraktionen und Karten}\label{ch:uebersicht}

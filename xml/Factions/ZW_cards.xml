@@ -20,7 +20,7 @@
 		actions="0"
 		costs="8"
 		cardclass="Soldat"
-		image="card_img_Z_Dwarf.jpg">
+		image="card_img_D_rider.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp004"></rule>
 	</card>
@@ -32,7 +32,7 @@
 		actions="2"
 		costs="8"
 		cardclass="Soldat"
-		image="card_img_Z_Dwarf.jpg">
+		image="card_img_D_scout.jpg">
 		<row name="CLOSE"></row>
 		<rule id="ma002"></rule>
 		<rule id="ma003"></rule>

@@ -60,7 +60,8 @@
 		strength="1"
 		actions="1"
 		costs="5"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_E_diplomat.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="gp003"></rule>
 		<rule id="sa001"></rule>
