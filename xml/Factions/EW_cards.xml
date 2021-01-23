@@ -20,7 +20,7 @@
 		actions="2"
 		costs="9"
 		cardclass="Soldat"
-		image="card_img_E_Kundschafter.jpg">
+		image="card_img_E_scout.jpg">
 		<row name="CLOSE"></row>
 		<row name="RANGED"></row>
 		<rule id="gp007"></rule>
@@ -36,7 +36,7 @@
 		actions="3"
 		costs="15"
 		cardclass="Soldat"
-		image="card_img_E_EliteKundschafter.jpg">
+		image="card_img_E_scout.jpg">
 		<row name="CLOSE"></row>
 		<row name="RANGED"></row>
 		<rule id="gp007"></rule>

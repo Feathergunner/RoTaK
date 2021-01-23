@@ -7,7 +7,8 @@
 		strength="1"
 		actions="1"
 		costs="8"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_M_wolf.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp004"></rule>
 		<rule id="mp004"></rule>
@@ -32,7 +33,8 @@
 		strength="2"
 		actions="2"
 		costs="12"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_M_boar.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp004"></rule>
 		<rule id="mp004"></rule>
@@ -59,7 +61,8 @@
         strength="2"
         actions="0"
         costs="5"
-        cardclass="Soldat">
+        cardclass="Soldat"
+		image="card_img_M_wolf.jpg">
         <row name="CLOSE"></row>
         <rule id="gp004"></rule>
     </card>
@@ -160,7 +163,8 @@
 		strength="3"
 		actions="2"
 		costs="11"
-		cardclass="Konstrukt">
+		cardclass="Konstrukt"
+		image="card_img_M_nest.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="gp001"></rule>
 		<rule id="gp005"></rule>

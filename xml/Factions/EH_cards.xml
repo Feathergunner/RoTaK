@@ -8,7 +8,7 @@
 		actions="3"
 		costs="13"
 		cardclass="Soldat"
-		image="card_img_H_Schuetze.jpg">
+		image="card_img_E_EliteKundschafter.jpg">
 		<row name="CLOSE"></row>
 		<row name="RANGED"></row>
 		<rule id="gp007"></rule>
@@ -114,7 +114,8 @@
 		strength="5"
 		actions="3"
 		costs="16"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_E_druid.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="gp011"></rule>
 		<rule id="gp010"></rule>
