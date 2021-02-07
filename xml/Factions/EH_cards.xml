@@ -37,7 +37,7 @@
 		actions="0"
 		costs="8"
 		cardclass="Soldat"
-		image="card_img_H_Soldat.jpg">
+		image="card_img_H_Guard.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp010"></rule>
 		<rule id="gp007"></rule>

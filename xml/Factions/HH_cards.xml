@@ -67,7 +67,7 @@
 		actions="0"
 		costs="7"
 		cardclass="Soldat"
-		image="card_img_H_Elitesoldat.jpg">
+		image="card_img_H_Guard.jpg">
 		<row name="CLOSE"></row>
 		<rule id="mp005"></rule>
 		<rule id="gp011"></rule>
@@ -80,7 +80,7 @@
 		actions="0"
 		costs="11"
 		cardclass="Soldat"
-		image="card_img_H_Elitesoldat.jpg">
+		image="card_img_H_Guard.jpg">
 		<row name="CLOSE"></row>
 		<rule id="mp005"></rule>
 		<rule id="gp011"></rule>

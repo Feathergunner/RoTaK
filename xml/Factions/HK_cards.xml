@@ -47,7 +47,8 @@
 		strength="2"
 		actions="0"
 		costs="4"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_H_Scout.jpg">
 		<row name="CLOSE"></row>
 		<rule
 			id="mp001"
