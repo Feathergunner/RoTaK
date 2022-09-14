@@ -223,7 +223,7 @@
 		type="active"
 		cost="3"
 		effect="Gib drei eigenen Einheiten jeweils +1 Moral.">
-		<label HZwerge="Horn blasen"></label>
+		<label Zwerge="Horn blasen"></label>
 	</rule>
 	<rule
 		id="ma008"

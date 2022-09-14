@@ -35,7 +35,7 @@
 		actions="0"
 		costs="17"
 		cardclass="Held"
-		image="card_img_H_Held.jpg">
+		image="card_img_H_hero_a.png">
 		<row name="CLOSE"></row>
 		<rule id="gp004"></rule>
 	</card>
@@ -76,7 +76,7 @@
 		actions="2"
 		costs="10"
 		cardclass="Anführer"
-		image="card_img_H_General.jpg">
+		image="card_img_H_general_2.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="ma018"></rule>
 	</card>
@@ -89,7 +89,7 @@
 		actions="0"
 		costs="10"
 		cardclass="Anführer"
-		image="card_img_H_General.jpg">
+		image="card_img_H_general_3.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp009"></rule>
 	</card>
@@ -139,7 +139,7 @@
 		actions="0"
 		costs="1"
 		cardclass="Soldat"
-		image="card_img_H_Standarte.jpg">
+		image="card_img_H_standart2.jpg">
 		<row name="CLOSE"></row>
 		<row name="RANGED"></row>
 		<rule id="mp002"></rule>

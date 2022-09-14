@@ -8,7 +8,7 @@
 		actions="0"
 		costs="8"
 		cardclass="Soldat"
-		image="card_img_H_Soldat.jpg">>
+		image="card_img_H_knight.jpg">
 		<row name="CLOSE"></row>
 	</card>
 	<card 
@@ -18,7 +18,8 @@
 		strength="6"
 		actions="0"
 		costs="12"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_H_baron.jpg">
 		<row name="CLOSE"></row>
 		<rule id="mp002"></rule>
 	</card>
@@ -29,7 +30,8 @@
 		strength="7"
 		actions="2"
 		costs="19"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_H_master_of_order.jpg">
 		<row name="CLOSE"></row>
 		<rule id="mp002"></rule>
 		<rule id="ma013"></rule>
@@ -92,7 +94,8 @@
 		strength="1"
 		actions="1"
 		costs="5"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_H_witchhunter.jpg">
 		<row name="CLOSE"></row>
 		<row name="RANGED"></row>
 		<rule id="mp005"></rule>
@@ -106,7 +109,8 @@
 		strength="2"
 		actions="2"
 		costs="10"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_H_elitewitchhunter.jpg">
 		<row name="CLOSE"></row>
 		<row name="RANGED"></row>
 		<rule id="mp005"></rule>
@@ -149,7 +153,7 @@
 		actions="2"
 		costs="10"
 		cardclass="Soldat"
-		image="card_img_H_priest.jpg">
+		image="card_img_H_armypriest.jpg">
 		<row name="CLOSE"></row>
 		<rule id="gp011"></rule>
 		<rule id="ma017"></rule>
@@ -162,7 +166,7 @@
 		actions="1"
 		costs="8"
 		cardclass="Soldat"
-		image="card_img_H_priest.jpg">
+		image="card_img_H_mage.jpg">
 		<row name="CLOSE"></row>
 		<row name="SUPPORT"></row>
 		<rule id="ap001"></rule>
@@ -176,7 +180,7 @@
 		actions="3"
 		costs="13"
 		cardclass="Soldat"
-		image="card_img_H_priest.jpg">
+		image="card_img_H_highpriest.jpg">
 		<row name="SUPPORT"></row>
 		<rule id="ap001"></rule>
 		<rule id="ca003"></rule>

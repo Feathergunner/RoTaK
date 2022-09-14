@@ -73,7 +73,8 @@
 		strength="6"
 		actions="0"
 		costs="13"
-		cardclass="Soldat">
+		cardclass="Soldat"
+		image="card_img_M_Greif(self.current_iter-1)%2.jpg">
 		<row name="RANGED"></row>
 		<rule id="gp004"></rule>
 		<rule id="gp010"></rule>
